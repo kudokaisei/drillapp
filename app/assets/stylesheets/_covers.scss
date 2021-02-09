@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("hono.png");
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Title {
+  width: 100%;
+  height: 100px;
+  border: solid white 1px;
+}
+
+.Main {
+  width: 100%;
+  height: calc(100vh - 200px);
+  border: solid white 1px;
+  display: flex;
+  .Image {
+    width: 50vw;
+    height: calc(100vh - 200px);
+    border: solid white 1px;
+  }
+  .Dialogue {
+    width: 50vw;
+    height: calc(100vh - 200px);
+    border: solid white 1px;
+  }
+}
+
+.Footer {
+  width: 100%;
+  height: 100px;
+  border: solid white 1px;
+}
